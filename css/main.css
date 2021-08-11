@@ -7,6 +7,7 @@
   --azul: #121f3d;
   --azul-claro: #24385b;
   --blanco: #fff;
+  --amarillo: #fed209;
 }
 * {
   margin: 0;
@@ -15,4 +16,12 @@
 }
 body {
   font-family: 'Ubuntu', sans-serif;
+}
+p {
+  line-height: 1.3;
+  margin: 10px 0;
+}
+h1,
+h3 {
+  color: var(--amarillo);
 }

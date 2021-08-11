@@ -1,0 +1,17 @@
+footer {
+  background-color: var(--azul);
+  height: 80px;
+}
+footer p {
+  color: white;
+}
+footer ul {
+  display: flex;
+  list-style: none;
+}
+footer ul li {
+  margin: 8px;
+}
+footer i {
+  color: white;
+}
