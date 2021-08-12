@@ -15,3 +15,6 @@ footer ul li {
 footer i {
   color: white;
 }
+footer .container {
+  justify-content: space-evenly;
+}
