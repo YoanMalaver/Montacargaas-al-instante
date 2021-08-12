@@ -5,13 +5,19 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Contacto</title>
+    <link rel="stylesheet" href="./css/contacto.css" />
+    <!-- iconos fontawesome -->
+    <script
+      src="https://kit.fontawesome.com/8e52938f89.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
   <body>
     <header class="navbar">
       <div class="container">
         <div class="logo">
           <figcaption>
-            <img src="./assets/logo.png" alt="Logo" />
+            <img src="../assets/logo.png" alt="Logo" />
           </figcaption>
           <p>Montacargas Al Instante</p>
         </div>
@@ -27,7 +33,7 @@
               <a href="#0">Equipo</a>
             </li> -->
             <li>
-              <a href="./contacto.html">Contacto</a>
+              <a href="./contacto.html">Contácto</a>
             </li>
             <li>
               <a href="./inicio.html">Inicia Sesion</a>
@@ -36,13 +42,39 @@
         </nav>
       </div>
     </header>
-    <main>Contacto</main>
+    <main class="contacto">
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3976.9546959174427!2d-74.10761548062904!3d4.602136540159339!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f9999839406a9%3A0x10add5c58092fa39!2sMontacargas%20en%20Instantes!5e0!3m2!1ses-419!2sco!4v1628733785228!5m2!1ses-419!2sco"
+        width="100%"
+        height="610"
+        style="border: 0"
+        allowfullscreen=""
+        loading="lazy"
+      ></iframe>
+      <form action="" class="formulario">
+        <div class="form">
+          <h1>Contáctanos</h1>
+          <div class="group one">
+            <input type="text" name="email" />
+            <span class="barra"> </span>
+            <label>Email</label>
+          </div>
+          <div class="group">
+            <input type="text" name="name" />
+            <span class="barra"> </span>
+            <label>Nombre</label>
+          </div>
+          <div class="group">
+            <textarea name="" id=""></textarea>
+          </div>
+          <button type="submit">Enviar</button>
+          <ButtonLogin />
+        </div>
+      </form>
+    </main>
     <footer>
       <section class="container">
         <div class="logo">
-          <figcaption>
-            <img src="./assets/logo.png" alt="Logo" />
-          </figcaption>
           <p>Montacargas Al Instante</p>
         </div>
         <p>Celular: 3204242095 - Fijo: 2776104</p>
